@@ -1,7 +1,6 @@
 # Mot chut chill chill
 
-### My Website:
-https://nc-dat.github.io/Earth/
+
 
 
 
