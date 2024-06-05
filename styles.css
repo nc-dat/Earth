@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #000; /* Nền màu đen */
+}
+
+.container {
+    text-align: center;
+    background: black; /* Nền container màu xám tối */
+    margin-top: 5px;
+    border-radius: 8px;
+
+}
+
+select {
+    padding: 5px;
+    font-size: 16px;
+    margin-top: 100px;
+    background-color: #333; /* Nền select màu xám đậm */
+    color: #fff; /* Chữ màu trắng */
+    border: 1px solid #444; /* Viền select màu xám nhạt */
+    border-radius: 4px;
+}
+
+.image-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+img {
+    max-width: 100%;
+    height: auto;    
+    border-radius: 4px;
+}
