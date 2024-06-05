@@ -37,3 +37,10 @@ img {
     height: auto;    
     border-radius: 4px;
 }
+
+video {
+    width: 100vw; /* 100% chiều rộng của viewport */
+    height: 100vh; /* 100% chiều cao của viewport */
+    object-fit: cover; /* Đảm bảo video bao trọn màn hình mà vẫn giữ tỷ lệ khung hình */
+    display: block;
+}

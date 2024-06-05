@@ -11,6 +11,12 @@
         <div class="image-container">
             <img id="qualityImage" src="images/144p.png" alt="Video Quality">
         </div>
+
+        <video id="qualityVideo" loop style="display:none;">
+            <source id="videoSource" src="" type="video/mp4">
+            Trình duyệt của bạn không hỗ trợ thẻ video.
+        </video>
+
         <select id="qualitySelect" onchange="changeImage()">
             <option value="144p">144p</option>
             <option value="240p">240p</option>
@@ -18,7 +24,9 @@
             <option value="720p">720p</option>
             <option value="1080p">1080p</option>
         </select>
+
     </div>
+    <audio id="clickSound" src="sounds/click-sound.mp3"></audio>
     <script src="script.js"></script>
 </body>
 </html>
